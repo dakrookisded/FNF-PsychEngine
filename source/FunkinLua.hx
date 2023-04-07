@@ -3391,6 +3391,10 @@ class HScript
 		interp.variables.set('FlxTimer', FlxTimer);
 		interp.variables.set('FlxTween', FlxTween);
 		interp.variables.set('FlxEase', FlxEase);
+		interp.variables.set('FlxColor', FlxColor);
+		interp.variables.set('FlxBackdrop', FlxBackdrop);
+		interp.variables.set('FlxTweenType', FlxTweenType);
+		interp.variables.set('FlxAxes', FlxAxes);
 		interp.variables.set('PlayState', PlayState);
 		interp.variables.set('game', PlayState.instance);
 		interp.variables.set('Paths', Paths);
